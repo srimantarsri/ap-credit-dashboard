@@ -172,8 +172,9 @@ function App() {
       </div>
 
       <footer className="footer">
-        <p>Created by <strong>Mansi Viswanath</strong></p>
-        <p>Stratford Prep, Class of 2027</p>
+        <p style={{ fontStyle: 'italic', opacity: 0.6, fontSize: '0.9rem' }}>
+          An independent student initiative by <strong>Mansi Viswanath</strong>, Stratford Prep, Class of 2027
+        </p>
         <div style={{ marginTop: '10px', fontSize: '0.9rem', opacity: 0.7 }}>
           <Eye size={16} style={{ display: 'inline-block', marginRight: '5px', verticalAlign: 'middle' }} />
           Page Visits: {visitCount.toLocaleString()}
