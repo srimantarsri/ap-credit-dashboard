@@ -35,7 +35,7 @@ function ResultsDisplay({ results }) {
       
       if (matches) {
         matches.forEach(match => {
-          const scoreMatch = match.match(/Score (\d+): (\d+) credits?(?: \((.+?)\))?/)
+          const scoreMatch = match.match(/Score (\d+): ([\d-]+) credits?(?: \((.+?)\))?/)
           if (scoreMatch) {
             scoreData.push({
               score: scoreMatch[1],
